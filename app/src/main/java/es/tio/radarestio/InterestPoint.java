@@ -6,6 +6,8 @@ public class InterestPoint {
     private double longitude;
     private Boolean status;
     private String message;
+    private double previolat;
+    private double previolon;
 
     InterestPoint(Double latitude, double longitude, Boolean status, String message){
         this.latitude = latitude;
@@ -45,5 +47,21 @@ public class InterestPoint {
     public void setMessage(String message) {
             this.message = message;
         }
+
+    public double getPreviolat() {
+        return previolat;
+    }
+
+    public void setPreviolat(double previolat) {
+        this.previolat = previolat;
+    }
+
+    public double getPreviolon() {
+        return previolon;
+    }
+
+    public void setPreviolon(double previolon) {
+        this.previolon = previolon;
+    }
 }
 
